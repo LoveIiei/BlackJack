@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resourses\player1\p1checks.png" />
+    <None Remove="Resourses\player2\p2checks.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resourses\player1\p1checks.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resourses\player2\p2checks.png" />
+  </ItemGroup>
+
+</Project>
