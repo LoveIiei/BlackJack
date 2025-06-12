@@ -7,24 +7,44 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#FF3CA612">
-        <Button Content="Hit" Name="p1Hit"  HorizontalAlignment="Left" Margin="168,257,0,0" VerticalAlignment="Top" Width="45" Background="#FF0C0C0D" Foreground="#FFFA0B16"/>
-        <Button Content="Stay" Name="p1Stay" HorizontalAlignment="Left" Margin="354,257,0,0" VerticalAlignment="Top" Width="46" Background="#FF0C0C0D" Foreground="#FFFA0B16"/>
-        <Button Content="Double" Name="p1Double" HorizontalAlignment="Left" Margin="512,257,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.171,0.623" Background="#FF0C0C0D" Foreground="#FFFA0B16"/>
-
-        <Button Content="Hit" Name="p2Hit" HorizontalAlignment="Left" Margin="168,106,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.846,1.206" Width="45" Background="#FF121213" Foreground="#FFFFEC00"/>
-        <Button Content="Stay" Name="p2Stay" HorizontalAlignment="Left" Margin="354,106,0,0" VerticalAlignment="Top" Width="46" Background="#FF121213" Foreground="#FFFFEC00"/>
-        <Button Content="Double" Name="p2Double" HorizontalAlignment="Left" Margin="512,106,0,0" VerticalAlignment="Top" Background="#FF121213" Foreground="#FFFFEC00"/>
+        <Button Content="Hit" Name="p1Hit" Click="p1Hit_Click"  HorizontalAlignment="Left" Margin="168,257,0,0" VerticalAlignment="Top" Width="45" Background="#FF0C0C0D" Foreground="#FFFA0B16"/>
+        <Button Content="Stay" Name="p1Stay" Click="p1Stay_Click"  HorizontalAlignment="Left" Margin="354,257,0,0" VerticalAlignment="Top" Width="46" Background="#FF0C0C0D" Foreground="#FFFA0B16"/>
+        <Button Content="Double" Name="p1Double" Click="p1Double_Click"  HorizontalAlignment="Left" Margin="512,257,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.171,0.623" Background="#FF0C0C0D" Foreground="#FFFA0B16"/>
+        <TextBlock x:Name="p1Fund" HorizontalAlignment="Left" Margin="654,259,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="#FFD30808" Background="#FF3CA612" FontSize="14" FontFamily="Showcard Gothic"/>
+        <TextBlock x:Name="p1Value" HorizontalAlignment="Left" Margin="727,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" RenderTransformOrigin="0.513,1.6" Foreground="#FFDA0A0A" FontSize="18" FontFamily="Blackadder ITC"/>
         <Image HorizontalAlignment="Left" Margin="607,252,0,0" VerticalAlignment="Top" Width="30">
             <Image.Source>
-                <BitmapImage UriSource="Resourses/player1/p1checks.png" DecodePixelWidth="30" CreateOptions="IgnoreColorProfile" />
+                <BitmapImage UriSource="Resources/player1/p1checks.png" DecodePixelWidth="30" CreateOptions="IgnoreColorProfile" />
             </Image.Source>
         </Image>
-        <Image HorizontalAlignment="Left" Margin="607,101,0,0" VerticalAlignment="Top" Width="30">
+        <Image x:Name="p1_1" HorizontalAlignment="Left" Height="80" Margin="52,306,0,0" VerticalAlignment="Top" Width="70"/>
+        <Image x:Name="p1_2" Margin="168,306,0,0" Height="80" Width="70" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Image x:Name="p1_3" HorizontalAlignment="Left" Height="80" Margin="276,306,0,0" VerticalAlignment="Top" Width="70"/>
+        <Image x:Name="p1_4" HorizontalAlignment="Left" Height="80" Margin="388,306,0,0" VerticalAlignment="Top" Width="70"/>
+        <Image x:Name="p1_5" HorizontalAlignment="Left" Height="80" Margin="524,306,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.455,0.425"/>
+        <Image x:Name="p1_6" Margin="669,312,61,50" Height="80" Width="70" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+        <Button Content="Hit" Name="p2Hit" Click="p2Hit_Click"  HorizontalAlignment="Left" Margin="168,116,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.846,1.206" Width="45" Background="#FF121213" Foreground="#FFFFEC00"/>
+        <Button Content="Stay" Name="p2Stay" Click="p2Stay_Click" HorizontalAlignment="Left" Margin="354,116,0,0" VerticalAlignment="Top" Width="46" Background="#FF121213" Foreground="#FFFFEC00" RenderTransformOrigin="0.554,1.856"/>
+        <Button Content="Double" Name="p2Double" Click="p2Double_Click" HorizontalAlignment="Left" Margin="512,116,0,0" VerticalAlignment="Top" Background="#FF121213" Foreground="#FFFFEC00"/>
+        <Image HorizontalAlignment="Left" Margin="607,111,0,0" VerticalAlignment="Top" Width="30">
             <Image.Source>
-                <BitmapImage UriSource="Resourses/player2/p2checks.png" DecodePixelWidth="30" CreateOptions="IgnoreColorProfile" />
+                <BitmapImage UriSource="Resources/player2/p2checks.png" DecodePixelWidth="30" CreateOptions="IgnoreColorProfile" />
             </Image.Source>
         </Image>
-        <TextBlock HorizontalAlignment="Left" Margin="654,259,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="Red" Background="#FF3CA612"/>
-        <TextBlock HorizontalAlignment="Left" Margin="654,108,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="#FFFBFF00" Background="#FF3CA612"/>
+        <TextBlock x:Name="p2Fund" HorizontalAlignment="Left" Margin="654,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="#FFFBFF00" Background="#FF3CA612" FontFamily="Bauhaus 93" FontSize="14"/>
+        <Image x:Name="p2_1" HorizontalAlignment="Left" Height="80" Margin="52,20,0,0" VerticalAlignment="Top" Width="70"/>
+        <Image x:Name="p2_2" HorizontalAlignment="Left" Height="80" Margin="168,20,0,0" VerticalAlignment="Top" Width="70"/>
+        <Image x:Name="p2_3" HorizontalAlignment="Left" Height="80" Margin="276,20,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.128,0.53"/>
+        <Image x:Name="p2_4" HorizontalAlignment="Left" Height="80" Margin="388,20,0,0" VerticalAlignment="Top" Width="70"/>
+        <Image x:Name="p2_5" HorizontalAlignment="Left" Height="80" Margin="524,20,0,0" VerticalAlignment="Top" Width="70"/>
+        <Image x:Name="p2_6" HorizontalAlignment="Left" Height="80" Margin="664,20,0,0" VerticalAlignment="Top" Width="70"/>
+        <TextBlock x:Name="p2Value" HorizontalAlignment="Left" Margin="727,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.354,7.61" Foreground="#FFF4F608" FontFamily="Blackadder ITC" FontSize="18"/>
+        <Image HorizontalAlignment="Left" Margin="276,158,0,0" VerticalAlignment="Top" Width="80">
+            <Image.Source>
+                <BitmapImage UriSource="Resources/money.png" DecodePixelWidth="80" CreateOptions="IgnoreColorProfile" />
+            </Image.Source>
+        </Image>
+        <TextBlock x:Name="pool" HorizontalAlignment="Left" Margin="370,185,0,0" Text="100" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFC11EF3" FontSize="20" FontFamily="Algerian"><Run Language="en-ca"/></TextBlock>
     </Grid>
 </Window>

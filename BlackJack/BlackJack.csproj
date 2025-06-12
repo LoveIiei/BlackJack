@@ -9,15 +9,135 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resourses\player1\p1checks.png" />
-    <None Remove="Resourses\player2\p2checks.png" />
+    <None Remove="Resources\background.mp3" />
+    <None Remove="Resources\money.png" />
+    <None Remove="Resources\player1\10.png" />
+    <None Remove="Resources\player1\12.png" />
+    <None Remove="Resources\player1\13.png" />
+    <None Remove="Resources\player1\14.png" />
+    <None Remove="Resources\player1\3.png" />
+    <None Remove="Resources\player1\4.png" />
+    <None Remove="Resources\player1\5.png" />
+    <None Remove="Resources\player1\6.png" />
+    <None Remove="Resources\player1\7.png" />
+    <None Remove="Resources\player1\8.png" />
+    <None Remove="Resources\player1\9.png" />
+    <None Remove="Resources\player1\p1checks.png" />
+    <None Remove="Resources\player2\1.png" />
+    <None Remove="Resources\player2\10.png" />
+    <None Remove="Resources\player2\11.png" />
+    <None Remove="Resources\player2\12.png" />
+    <None Remove="Resources\player2\13.png" />
+    <None Remove="Resources\player2\14.png" />
+    <None Remove="Resources\player2\2.png" />
+    <None Remove="Resources\player2\3.png" />
+    <None Remove="Resources\player2\4.png" />
+    <None Remove="Resources\player2\5.png" />
+    <None Remove="Resources\player2\6.png" />
+    <None Remove="Resources\player2\7.png" />
+    <None Remove="Resources\player2\8.png" />
+    <None Remove="Resources\player2\9.png" />
+    <None Remove="Resources\player2\p2checks.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Resourses\player1\p1checks.png">
+    <Content Include="Resources\money.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Resource Include="Resourses\player2\p2checks.png" />
+    <Content Include="Resources\player1\8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\player1\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player1\12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player1\13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player1\14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player1\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player1\11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player1\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player1\4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player1\5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player1\6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player1\7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player1\9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player1\p1checks.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player1\10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\player2\9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\background.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\player2\p2checks.png" />
   </ItemGroup>
 
 </Project>
